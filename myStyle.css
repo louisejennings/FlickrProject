@@ -1,0 +1,165 @@
+body{
+	background-image: url("http://cdn.wallpapersafari.com/43/15/xZ3sWC.jpg");
+	margin:0;
+}
+
+h1{
+	padding-top:20px;
+	color:white;
+	font-family:arial;
+	font-size:30px;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style:none;
+	display:inline-block;
+}
+
+
+#right{
+	margin-left:95%;
+	border-top-right-radius: 25px;
+}
+
+#left{
+	border-top-left-radius: 25px;
+}
+
+#left,#right{
+	border:0;
+	z-index:1;
+	width:5%;
+	opacity:0;
+	color:white;
+	background-color:gray;
+	height:100px;
+	position:absolute;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+#left:hover,#right:hover{
+	opacity:1;
+	-webkit-opacity: 1;
+	-moz-opacity:1;
+}
+	
+
+#leftMain{
+	float:left;
+	width:30%;
+	height:100%;
+}
+
+#main{
+	float:left;
+	height:100%;
+	width:70%;
+}
+
+#mainDisplayScreen{
+	border-radius: 25px;
+	position:relative;
+	overflow: hidden;
+	top:5%;
+	background:white;
+	height:90%;
+	width:80%;
+}
+#mainImage{
+	position:relative;
+	top:0%;
+	height:75%;
+}
+#output{
+	color:black;
+	font-size:30px;
+	text-align:center;
+	height:100%;
+	width:100%;
+}
+
+#output img{
+	margin-top:10%;
+	height:80%;
+	border-radius:10px;
+}
+
+#outerContainer{
+	width:100%;
+	height:100px;
+	background-color:#D3D3D3;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+}
+
+
+#carousel{	
+	left:50%;
+	white-space: nowrap; 
+	color:white;
+	font-size:30px;
+	text-align:center;
+	position:absolute;
+	height:100px;
+}
+
+#carousel img{
+	opacity: 0.5;
+	margin:0;
+	border-radius:10px;
+	height:auto;
+	width:auto;
+}
+
+#carousel img:hover {
+    opacity: 1;
+}
+
+#thumbs{
+	margin-top:12px;
+
+}
+
+#buttonsTags{
+	margin:auto;
+	width:70%;
+	height:100%;
+}
+
+#findImages {
+	margin-top:30%;
+	width:100%;
+	height:40px;
+}
+
+#tagsDisplayed{
+	width:100%;
+}
+
+
+#tag{
+	width:80%;
+	margin-top:5px;
+	margin-bottom:5px;
+    height: 25px;
+    padding: 0;
+}
+
+#deleteBtn{
+	margin-left:5px;
+	width:25px;
+	height:25px;
+	padding: 0;
+}
+
+#addtag{
+	width:25px;
+	height:25px;
+}
+
