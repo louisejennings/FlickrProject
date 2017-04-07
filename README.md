@@ -1,11 +1,11 @@
 # Flickr Project
 ## 2nd Year Project: Display Flickr images in a carousel  
 
-Using Flickr's API, allow users to search for multiple tags.
+Using Flickr's REST API, allow users to search for multiple tags.
 
-Display the images in a carousel. 
+Display the images in a carousel using jQuery. 
 
-Click an image to enlarge it on the main frame. 
+Click a thumbnail to enlarge it on the main frame. 
 
 Move through the carousel with the arrows that fade in.
 
